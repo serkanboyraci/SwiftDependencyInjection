@@ -15,6 +15,7 @@
 		6050DA102A142D8700FB4495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6050DA0E2A142D8700FB4495 /* LaunchScreen.storyboard */; };
 		6050DA192A142E6300FB4495 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 6050DA182A142E6300FB4495 /* Swinject */; };
 		6050DA1B2A1CC4F800FB4495 /* BackgroundProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050DA1A2A1CC4F800FB4495 /* BackgroundProviderProtocol.swift */; };
+		6050DA1D2A1CC7FE00FB4495 /* BackgroundProvidingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050DA1C2A1CC7FE00FB4495 /* BackgroundProvidingClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		6050DA0F2A142D8700FB4495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6050DA112A142D8700FB4495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6050DA1A2A1CC4F800FB4495 /* BackgroundProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundProviderProtocol.swift; sourceTree = "<group>"; };
+		6050DA1C2A1CC7FE00FB4495 /* BackgroundProvidingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundProvidingClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				6050DA0E2A142D8700FB4495 /* LaunchScreen.storyboard */,
 				6050DA112A142D8700FB4495 /* Info.plist */,
 				6050DA1A2A1CC4F800FB4495 /* BackgroundProviderProtocol.swift */,
+				6050DA1C2A1CC7FE00FB4495 /* BackgroundProvidingClass.swift */,
 			);
 			path = SwiftDependencyInjection;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				6050DA1B2A1CC4F800FB4495 /* BackgroundProviderProtocol.swift in Sources */,
 				6050DA082A142D8600FB4495 /* ViewController.swift in Sources */,
 				6050DA042A142D8600FB4495 /* AppDelegate.swift in Sources */,
+				6050DA1D2A1CC7FE00FB4495 /* BackgroundProvidingClass.swift in Sources */,
 				6050DA062A142D8600FB4495 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
