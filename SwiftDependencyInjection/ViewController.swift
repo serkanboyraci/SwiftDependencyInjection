@@ -19,11 +19,9 @@ class ViewController: UIViewController {
         
         container.register(AnotherVCViewController.self) { resolver in
             let vc = AnotherVCViewController(providerProtocol: resolver.resolve(BackgroundProvidingClass.self))
-                return vc 
+                return vc
         }
             
-        
-        
             return container
     }()
 
@@ -40,6 +38,9 @@ class ViewController: UIViewController {
     }
     
     @objc private func buttonClicked() {
+        if let viewController = container.resolve(AnotherVCViewController.self) {
+            present(viewController, animated: true)
+        }
         
         
     }
